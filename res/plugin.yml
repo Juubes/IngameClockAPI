@@ -1,0 +1,9 @@
+name: IngameClockAPI
+main: com.juubes.motimaa.IngameClockAPI
+author: Juubes
+version: 1.0
+commands:
+   clock:
+      description: Palauttaa ajan hh:mm:ss ajassa.
+      aliases:
+      - kello
