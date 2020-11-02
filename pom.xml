@@ -6,7 +6,7 @@
 	<artifactId>IngameClockAPI</artifactId>
 	<version>1.0</version>
 	<build>
-		<defaultGoal>build</defaultGoal>
+		<defaultGoal>package</defaultGoal>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
