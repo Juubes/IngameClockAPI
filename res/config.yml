@@ -1,0 +1,2 @@
+# Set to 'clockapi.check' or some crap to actually check. By default anyone can use the command /clock.
+permission-clock-command: null

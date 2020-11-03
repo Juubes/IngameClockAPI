@@ -30,3 +30,9 @@ public class Ruokaplugini extends JavaPlugin {
 ```
 The above example ran at plugin load, but if you need to initialize scheduled events at another time, just add the dayoffset with `IngameClockAPI.getTimeInTicks()`.
 
+# Commands
+/clock -- prints out the in-game time to caller in 24 hour format HH:MM:SS.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
