@@ -1,5 +1,5 @@
 name: IngameClockAPI
-main: com.juubes.motimaa.IngameClockAPI
+main: com.juubes.motimaa.clockapi.IngameClockAPI
 author: Juubes
 version: 1.0
 commands:
