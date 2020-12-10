@@ -107,7 +107,7 @@ public class IngameClockAPI extends JavaPlugin implements CommandExecutor {
 	// public static float getUptimeHours() {
 	// return getUptimeMillis() / INGAME_HOUR;
 	// }
-	//
+
 	// /**
 	// * Returns the in-game days since the server was started.
 	// */
@@ -115,12 +115,12 @@ public class IngameClockAPI extends JavaPlugin implements CommandExecutor {
 	// return getUptimeMillis() / INGAME_DAY;
 	// }
 	//
-	// /**
-	// * Returns the time in absolute ticks since the day started.
-	// */
-	// public static float getTimeTicksAbsolute() {
-	// return getUptimeTicks() % INGAME_DAY;
-	// }
+	/**
+	 * Returns the time in absolute ticks since the in-game day started.
+	 */
+	public static float getTimeTicksAbsolute() {
+		return getUptimeTicks() % INGAME_DAY;
+	}
 
 	/**
 	 * Returns the time in seconds since the day started.
